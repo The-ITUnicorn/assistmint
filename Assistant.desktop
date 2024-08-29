@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Voice Assistant
+Comment=Launch the Voice Assistant
+Exec=/home/itunicorn/ai/assistmint/start_assistant.sh
+Icon=/home/itunicorn/ai/icons/tux.png
+Terminal=true
+Type=Application
