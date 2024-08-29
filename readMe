@@ -57,7 +57,7 @@ Follow-ups:
 "What date is this event on?"
 
 
-Interaction with Jan AI
+Interaction with Jan AI - NOTE: Make sure you have Jan running and the API started.
 Ask Jan a Question
 Voice Command: "Ask Jan"
 Follow-up:
