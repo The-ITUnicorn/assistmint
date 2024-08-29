@@ -3,7 +3,7 @@
 
 python3.10 -m venv assistmintenv source 
 
-assistmintenv/bin/activate 
+source assistmintenv/bin/activate 
 
 pip install -r requirements.txt 
 
