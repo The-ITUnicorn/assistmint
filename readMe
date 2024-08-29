@@ -5,6 +5,8 @@ python3.10 -m venv assistmintenv
 
 source assistmintenv/bin/activate 
 
+sudo apt-get insatll sox
+
 pip install -r requirements.txt 
 
 #download vosk model - this will get the small model, you can use a different one if you want to.  You only need to do this part once
