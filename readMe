@@ -24,3 +24,49 @@ mv tux.png ~/ai/icons/tux.png
 mv Assistant.desktop ~/Desktop/Assistant.desktop
 
 #now you can run the app using the start_assistant.sh file #copy the Assistant.desktop and you can use that to launch it as well.
+
+
+#VOICE COMMANDS:
+
+Calendar Management
+Add Event to Calendar
+Voice Command: "Put this on my calendar"
+Follow-ups:
+"What is the event?"
+"What time does the event start?"
+"What time does the event end?"
+"What date is the event on?"
+
+
+Check Calendar
+Voice Command: "What's on my calendar?"
+Follow-ups:
+"For which date or week?" (e.g., "today," "tomorrow," "this week," "next week," "week of [specific date]")
+
+
+Clear Calendar
+Voice Command: "Clear my calendar"
+Follow-ups:
+"For which date or week would you like to clear your calendar?" (e.g., "today," "this week," "next week," "week of [specific date]")
+
+
+Remove Event
+Voice Command: "Remove event"
+Follow-ups:
+"What is the name of the event you'd like to remove?"
+"What date is this event on?"
+
+
+Interaction with Jan AI
+Ask Jan a Question
+Voice Command: "Ask Jan"
+Follow-up:
+"What would you like to ask Jan?"
+
+
+Summary of Voice Commands:
+"Put this on my calendar"
+"What's on my calendar?"
+"Clear my calendar"
+"Remove event"
+"Ask Jan"
