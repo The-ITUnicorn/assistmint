@@ -1,17 +1,16 @@
 #A local AI assistant that can add/remove/retrieve events on your calendar. It also ties into Jan AI to have voice chats with all your LLMs in Jan. #You'll need to download a vosk model and put it in a directory vosk-model in the same directory as the python files. #clone this repo using git #using python3.10:
 #If you are following along with my Youtube series on the Ultimate AI OS Linux Mint, you should already have an AI directory, if not, you need to create one or change the directory in the bash script as well as the desktop icon file.
 
-python3.10 -m venv assistmintenv source 
+python3.10 -m venv assistmintenv  
 
 source assistmintenv/bin/activate 
 
 pip install -r requirements.txt 
 
-#now you can run the app using the start_assistant.sh file #copy the Assistant.desktop and you can use that to launch it as well.
-
-#download vosk model - this will get the small model, you can use a different one if you want to.  You only need to do this part once.
+#download vosk model - this will get the small model, you can use a different one if you want to.  You only need to do this part once
 
 wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 
 unzip vosk-model-small-en-us-0.15.zip -d vosk-model
 
+#now you can run the app using the start_assistant.sh file #copy the Assistant.desktop and you can use that to launch it as well.
