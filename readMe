@@ -13,4 +13,12 @@ wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 
 unzip vosk-model-small-en-us-0.15.zip -d vosk-model
 
+chmod +x start_assistant.sh
+
+chmod +x Assistant.desktop
+
+mv tux.png ~/ai/icons/tux.png
+
+mv Assistant.desktop ~/Desktop/Assistant.desktop
+
 #now you can run the app using the start_assistant.sh file #copy the Assistant.desktop and you can use that to launch it as well.
