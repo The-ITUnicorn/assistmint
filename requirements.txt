@@ -1,6 +1,0 @@
-requests
-TTS
-vosk
-sounddevice
-dateparser
-

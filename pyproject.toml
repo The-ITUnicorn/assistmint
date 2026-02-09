@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assistmint"
+version = "2.0.0"
+description = "Shared core library for Assistmint voice assistants"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "faster-whisper",
+    "sounddevice",
+    "dateparser",
+    "openwakeword",
+    "scipy",
+    "numpy",
+    "noisereduce",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "nvidia-cublas-cu12",
+    "nvidia-cuda-runtime-cu12",
+    "nvidia-cudnn-cu12",
+    "nvidia-cuda-nvrtc-cu12",
+    "nvidia-cufft-cu12",
+    "torch",
+    "onnxruntime-gpu",
+]
+google = ["gcalcli"]
+
+[tool.setuptools.packages.find]
+include = ["assistmint*"]

@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+assistmintenv/
+
+# Vosk model (large, download separately)
+vosk-model/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated audio files
+*.wav
+
+# IDE
+.vscode/
+.idea/
